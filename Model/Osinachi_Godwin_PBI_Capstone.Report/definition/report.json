@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU05",
+      "reportVersionAtImport": {
+        "visual": "2.9.0",
+        "report": "3.3.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY26SU05",
+          "path": "BaseThemes/CY26SU05.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "football_(1)5872942202309311.png",
+          "path": "football_(1)5872942202309311.png",
+          "type": "Image"
+        },
+        {
+          "name": "football5512037260676564.png",
+          "path": "football5512037260676564.png",
+          "type": "Image"
+        },
+        {
+          "name": "globe013115564890331055.png",
+          "path": "globe013115564890331055.png",
+          "type": "Image"
+        },
+        {
+          "name": "goal_(1)30662470647178786.png",
+          "path": "goal_(1)30662470647178786.png",
+          "type": "Image"
+        },
+        {
+          "name": "goal32152043498859795.png",
+          "path": "goal32152043498859795.png",
+          "type": "Image"
+        },
+        {
+          "name": "target9476005976093322.png",
+          "path": "target9476005976093322.png",
+          "type": "Image"
+        },
+        {
+          "name": "trophy7352846672172169.png",
+          "path": "trophy7352846672172169.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}
